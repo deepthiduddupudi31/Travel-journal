@@ -2,7 +2,7 @@ body
 {
    padding:0;
    margin:0;
-   background-color: rgba(227, 66, 52, 0.9);
+   background-color: #E0FFFF;
     
 }
 
@@ -11,6 +11,7 @@ body
    height:1000px;
    width:41%;
    margin-left:370px;
+   background-color: white;
 }
 .header
 {
@@ -66,7 +67,6 @@ img
     height:10px;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     margin-right:100px;
 }
 .map
@@ -91,4 +91,69 @@ a{
 }
 .icon{
    color:red;
+}
+@media only screen and (min-width: 319px) and (max-width: 480px) {
+  .app
+  {
+   height:1800px;
+    margin:50px;
+    margin-left:50px;
+    margin-right:50px;
+    width:75%;
+    border-radius: 2%;
+  }
+  .header
+  {
+    height:70px;
+    width:100%;
+    margin-top:0px;
+ }
+ .icon1
+{
+  
+   padding-left:40px;
+   color:white;
+   padding-top: 25px;
+
+}
+
+.heading
+{
+  
+   padding-top:25px;
+   font-size:17px;
+   padding-left:80px;
+   
+}
+.pass
+{
+   
+   display:block;
+   margin-left:12px;
+   margin-bottom:270px;
+   
+
+}
+img
+{
+   width:85%;
+   height:200px;
+   padding-left:4px;
+   
+}
+.location
+{
+   height:25px;
+   width:85%;
+
+}
+.description
+{
+    max-width:200px;
+}
+.country
+{
+    display: block;
+}
+
 }

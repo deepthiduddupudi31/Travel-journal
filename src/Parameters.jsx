@@ -13,6 +13,7 @@ export default function Parameters(props)
         <div className="location">
          <FontAwesomeIcon icon={faLocationDot} className="icon" />
          <p className="country">{props.country}</p>
+         <br></br>
          <a href="#">View on maps</a>
         </div>
         <h1>{props.name}</h1>

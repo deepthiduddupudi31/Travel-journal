@@ -157,3 +157,36 @@ img
 }
 
 }
+@media (min-width: 600px) and (max-width: 1100px)
+{
+    .app
+    {
+      height:1200px;
+       width:80%;
+       margin-left:50px;
+       margin-right:50px;
+    }
+.description
+{
+    max-width:220px;
+}
+.pass
+{
+   margin-bottom: 50px;
+}
+img
+{
+    height:300px;
+}
+.country
+{
+    display: block;
+}
+.location
+{
+   height:25px;
+   width:85%;
+   
+
+}
+}

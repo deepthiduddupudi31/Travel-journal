@@ -19,7 +19,7 @@ export default [
         country:"Australia",
         name:"Sydeny opera house",
         Date:"31-AUG-2021 to 11-Jan-2022",
-        description:"The Sydney Opera House is a world-famous architectural masterpiece located on Sydney's harbor, known for its distinctive sail-like design. It serves as a multi-venue performing arts center and is a UNESCO World Heritage site."
+        description:"The Sydney Opera House is a world-famous architectural masterpiece located on Sydney's harbor, known for its distinctive sail-like design."
     },
     {
         id:"3",

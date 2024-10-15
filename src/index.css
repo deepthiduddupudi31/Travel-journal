@@ -92,6 +92,39 @@ a{
 .icon{
    color:red;
 }
+@media screen and (min-width: 1100px)
+{
+    .app
+    {
+      height:1200px;
+       width:55%;
+       margin-left:220px;
+       margin-right:220px;
+    }
+.description
+{
+    max-width: 85%;
+}
+.pass
+{
+   margin-bottom: 50px;
+}
+img
+{
+    height:300px;
+}
+.country
+{
+    display: block;
+}
+.location
+{
+   height:25px;
+   width:85%;
+   
+
+}
+}
 @media (min-width: 320px) and (max-width: 425px)  {
   
    .app {
@@ -156,38 +189,10 @@ a{
 {
     display: block;
 }
+.name
+{
+    font-size:25px;
+}
 
 }
-/* @media screen and (max-width: 1100px)
-{
-    .app
-    {
-      height:1200px;
-       width:55%;
-       margin-left:220px;
-       margin-right:220px;
-    }
-.description
-{
-    max-width: 85%;
-}
-.pass
-{
-   margin-bottom: 50px;
-}
-img
-{
-    height:300px;
-}
-.country
-{
-    display: block;
-}
-.location
-{
-   height:25px;
-   width:85%;
-   
 
-}
-} */

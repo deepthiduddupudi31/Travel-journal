@@ -16,7 +16,7 @@ export default function Parameters(props)
          <br></br>
          <a href="#">View on maps</a>
         </div>
-        <h1>{props.name}</h1>
+        <h1 className="name">{props.name}</h1>
         <p>{props.Date}</p>
         <p className="description">{props.description}</p>
         </div>

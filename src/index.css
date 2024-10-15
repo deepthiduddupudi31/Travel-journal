@@ -92,18 +92,19 @@ a{
 .icon{
    color:red;
 }
-@media screen and (min-width: 1100px)
+@media screen and (max-width:1100px)
 {
     .app
     {
       height:1200px;
-       width:55%;
+       width:65%;
        margin-left:220px;
-       margin-right:220px;
+       margin-right:200px;
     }
 .description
 {
-    max-width: 85%;
+    max-width: 60%;
+    font-size:16px;
 }
 .pass
 {
@@ -125,11 +126,11 @@ img
 
 }
 }
-@media (min-width: 320px) and (max-width: 425px)  {
+@media screen and (max-width:425px)  {
   
    .app {
       margin: 20px auto;
-      width:75%;
+      width:auto;
       height:2000px;
   }
   
